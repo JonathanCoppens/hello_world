@@ -1,12 +1,12 @@
 function welcomeMessage() {
     // !! ".value" prend la valeur dans le champs, ne pas oublier !!
     let surname = document.getElementById("surname").value;
-    let welcome = alert(`Bienvenue à toi, ${surname} !`);
+    /* let welcome = alert(`Bienvenue à toi, ${surname} !`); */
 
-    if(surname = "") {
-        alert("Bonne visite !");
+    if(surname == "") {
+        alert("Veuillez entre votre nom");
     } else {
-        alert(welcome);
+        alert(`Bienvenue sur le site ${surname} !`)
     }
 }
 // soumet le formulaire et y intègre la fonction précédente
