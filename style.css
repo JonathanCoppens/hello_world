@@ -136,6 +136,25 @@ a:hover {
     box-shadow: 2px 2px 5px 2px white;
 }
 
+.user-icon {
+   /*  visibility: hidden; */
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    right: 25px;
+    top: 25px;
+    border-radius: 50%;
+    background-color: #000000;
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  .user-name {
+    font-weight: bold;
+    color: #fff;
+    font-size: large;
+  }
+
     ----/*portfolio's style*/----
 
 .main-container > .main-pics-container {
